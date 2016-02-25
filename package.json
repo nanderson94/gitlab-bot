@@ -1,0 +1,28 @@
+{
+  "name": "git-bot",
+  "version": "0.0.1",
+  "description": "Takes Slack's outgoing webhooks and feeds back information about Gitlab",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.gmu.edu/nander13/git-bot.git"
+  },
+  "keywords": [
+    "gitlab",
+    "slack",
+    "bot",
+    "webhook"
+  ],
+  "author": "Nicholas Anderson <nanderson@nanderson.me>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3",
+    "nedb": "^1.2.1",
+    "node-gitlab": "^1.2.1",
+    "request": "^2.65.0"
+  }
+}
